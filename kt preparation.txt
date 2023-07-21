@@ -1,0 +1,76 @@
+The Mission Control Dashboard tool provides Financial Institution’s the ability to monitor their migration along with providing the client the ability to manage their migration, respond/handle error conditions and ultimately drive it. 
+
+The Mission Control Dashboard tool also allows the Implementation team to have a central location to configure the migration without needing to access different configuration tools or modify queries therefore making the migration more efficient and error proof.  
+
+Warning/Past Due alerts will show for the following dates entered in the Financial Institution Info/Parameters screen for migration dates and warning days: 
+•	Project Start Date
+•	Friends and Family Start Date
+•	Login Name Migration Start Date
+•	D1 Enrollment Start Date
+•	Force Migration Date
+•	Projected Migration End Date
+
+"Pausing migration will stop login names from migrating.  To start migration again you will need to reselect login names.  Click CONTNUE to pause migration otherwise click CANCEL".  
+
+ceb-consumer electronic banking/ legacy platform - Consumer eBanking application 
+Older generation FIS product offering
+CEB contains the online login credentials, online banking profile, and select companions 
+
+eam - Enterprise Account Management - Provides the authentication for CEB
+The EAM Team is engaged to modify the Login Screens
+
+Bill Pay -  is a service used to perform electronic payments and remittance
+During the CEB to Digital One migration process, the customers’ SSO Credentials are migrated
+Credentials are stored in the IDP 
+
+Zelle -->  Person to Person Money Exchange Service
+Zelle is embedded into the Digital One application
+
+people pay --> Person to Person Money Exchange Service
+Similar to other industry applications such as Zelle, Cash App, or Venmo
+
+
+IDP -
+
+Ready to Migrate tab --- displays the users ready to be migrated. Users are able to create a report showing login names that have a Migration Status of Ready.
+
+The In Progress tab displays the users in progress to be migrated. Users are able to create a report showing login names that have a Migration Status of In Progress
+
+On Hold tab displays the users on hold. Users are able to create a report showing login names that have a Migration Status of Hold.
+
+Migrated tab display the users ready to be migrated. Users are to create a report showing login names that have a Migration Status of DONE.
+
+The Alias Names tab display the users that have alias names.Update Login Names button will update the login names selected to be forced to change login name the next time they log in 
+
+The Exceptions tab display the users with exceptions. 
+
+The Converted Elements tab allows for users to show login names that have a Migration Status of Done and the number of elements converted per login name.The Converted Elements tab allows for users to show login names that have a Migration Status of Done and the number of elements converted per login name.
+
+The Migration History Timeline tab will display a bar graph based on selected parameters  of the different time periods of when login names were migrated. 
+                    
+              REPORTS
+
+The Report Screens provide different reports for Financial Institutions and FIS to review and use as management tools for migrations.
+
+The User Migration Status tab displays all the Login Names and what their statuses are.
+
+The User Not Migrated tab displays all Login Names with a Migration Status of HOLD, INPRG and READY.
+
+The Users with Exceptions tab displays all Login Names with a Migration Status of EXCEP.
+
+The Duplicate Login Names tab displays  all Login Names that are duplicated.Duplicated Login Names screen will appear showing all login names that have an Alias name and the Login Name contains 'DUP' in it	
+
+The Login Names Invalid Character tab displays  all Login Names with invalid characters.the screen will appear showing all login names that have an Alias name and the Login Name contains Invalid Characters.
+
+The Login Names Count tab displays  a quick snapshot of the total number of users from CeB, IDP and MCD. 
+
+		FINANCIAL INSTITUTION
+The Financial Institution Info/Parameters tab provides Financial Institutions and implementation teams the ability to enter migration parameters specifically for the Financial Institutions.
+
+The General Data Requests screen is for gathering general Financial Institutional Information that will be used for migrations
+
+The Team Members screen displays the various  contacts for the different roles for the migration project.
+
+The Migration timeline screen defines the dates for the whole migration process. Alerts will be produced from the selected dates defined.
+
+The Migration Parameters screen allows users to define the various parameters that will be used for migrations.
